@@ -27,8 +27,10 @@
   #!/bin/bash
 
   sudo apt-get install dpkg-sig # 如果安装请忽略
+  sudo apt-get install gdebi-core # 如果安装请忽略
   gpg --keyserver keys.gnupg.net --recv-keys 3F32EE77E331692F
-  dpkg-sig --verify rstudio-1.2.1335-amd64.deb # (需要事先安装dpkg-sig)
+  dpkg-sig --verify rstudio-1.2.1335-amd64.deb # 需要事先安装dpkg-sig
+  sudo gdebi -n rstudio-1.2.1335-amd64.deb # 需要事先安装gdebi-core
   ```
   * [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation)  
     官网有十分详细的安装指导，不赘述
