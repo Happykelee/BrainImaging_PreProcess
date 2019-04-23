@@ -55,8 +55,8 @@
   echo -e '\n-------------Done-------------'
   ```
   * R包的安装  
-    在R / R Studio中运行如下安装程序。
-    ANTsR安装可能报错，请参考网站: https://github.com/ANTsX/ANTsR
+    在R / R Studio中运行如下安装程序： 
+    **另外，** ANTsR安装可能报错，请参考网站: https://github.com/ANTsX/ANTsR
   ```R
   #!/usr/bin/R
 
