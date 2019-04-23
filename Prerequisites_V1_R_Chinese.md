@@ -39,8 +39,8 @@
     libcurl4-openssl-dev  
     libgit2-dev  
     libssl-dev  
-    libv8-dev
-    r-cran-rgl #这个是R包，以防后续安装失败
+    libv8-dev  
+    r-cran-rgl #这个是R包，以防后续安装失败  
   ```bash
   #!/bin/bash
 
