@@ -39,11 +39,12 @@
     libcurl4-openssl-dev  
     libgit2-dev  
     libssl-dev  
-    libv8-dev  
+    libv8-dev
+    r-cran-rgl #这个是R包，以防后续安装失败
   ```bash
   #!/bin/bash
 
-  for i in {libcurl4-openssl-dev,libgit2-dev,libssl-dev,libv8-dev}
+  for i in {libcurl4-openssl-dev,libgit2-dev,libssl-dev,libv8-dev,r-cran-rgl}
   do
     if [ `dpkg -l | grep $i |wc -l` -ne 0 ];then
       echo -e "Already installed： $i"
